@@ -1,0 +1,63 @@
+/* STYLESHEET FOR THE INDEX PAGE */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  min-height: 100vh;
+}
+
+body {
+  background: #e9ebee;
+  font-size: 18px;
+  color: #333;
+  padding: 0px 0 50px 0;
+}
+
+button {
+  border: none;
+}
+
+.button {
+  display: inline-block;
+  background-color: transparent;
+  color: ghostwhite;
+  text-decoration: none;
+  margin: 10px 10px 0 0;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  color: white;
+  text-decoration: none;
+}
+
+.button-primary {
+    padding: 15px 30px;
+}
+
+.button-primary:hover,
+.button-primary:focus {
+  background: #243949;
+}
+
+::-webkit-input-placeholder {
+  font-size: 25px;
+}
+
+::-moz-placeholder {
+  font-size: 25px;
+}
+
+:-ms-input-placeholder {
+  font-size: 25px;
+}
+
+::placeholder {
+  font-size: 25px;
+}
+
+
+

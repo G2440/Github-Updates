@@ -1,0 +1,9 @@
+DirectoryIndex index.php
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+ErrorDocument 403 /errorpage.php
+ErrorDocument 404 /errorpage.php
+ErrorDocument 500 /errorpage.php
